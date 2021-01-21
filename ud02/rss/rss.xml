@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>IES Los Sauces:Onda Salix</title>
+        <link></link>
+        <description>Mi pagina web</description>
+        <category>educacion</category>
+        <language>es-es</language>
+        <copyright>2021 Mario Badallo Jiménez. All rights reserved </copyright>
+        <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+        <lastBuildDate>Wed, 20 Jan 2021 23:59:00 +0100</lastBuildDate>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>8</hour>
+            <hour>9</hour>
+            
+        </skipHours>
+        <item>
+			<tittle>Practica 10</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practica creamos una tabla la cual 
+				reaccionaba al pasar el cursor por los diferentes elementos.
+				</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>
+        <item>
+			<tittle>Practica 11</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practica nos encontramos al principito,
+				con algunas muetras de como ordenar texto u editarlo.</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>
+        <item>	
+			<tittle>Practica 12</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practiica nos muuestra como hacer un formulario
+				utilizando fuentes que se encuentran en la red disponibles al uso.</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>	
+		<item>	
+			<tittle>Practica 13</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practica crearemos una tabla con una imagen
+				en cada parte ademas de un texto, título y un footer.</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>	
+		<item>	
+			<tittle>Practica 13</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practica crearemos una tabla con una imagen
+				en cada parte ademas de un texto, título y un footer.</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>		
+		<item>	
+			<tittle>Practica 14</tittle>
+			<link></link>
+			<description>
+			<![CDATA[
+				<h2>Practica realizada la anterior evaluación</h2>
+				<p>En esta practica se pondrian en practica los distintos tipos de fuentes
+				a los que puedes acudir para personalizar tu texto.</p>
+			]]>
+			</description>
+			 <author>Mario Badallo Jiménez</author>
+			 <category>educacion</category>
+			 <pubDate>Fri, 15 Jan 2021 20:38:48 +0100</pubDate>
+		</item>		
+	</channel>
+</rss>

@@ -1,0 +1,99 @@
+@font-face{
+  font-family: "Awesome";
+  src: url("../fonts/webfonts/fa-solid-900.ttf");
+}
+@font-face{
+  font-family: "goldman";
+  src: url("../fonts/Goldman-Regular.ttf");
+}
+﻿*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: goldman;
+  font-size: 14px;
+}
+
+  nav li {
+    display: inline-block;
+    padding: 10px;
+ 
+  } 
+  nav a{
+    text-decoration: none;
+    color: black;
+  }
+   nav{
+     text-align: center;
+     background-color: gray;
+   }
+  
+  h1{
+    border: 3px red solid;
+    text-align: center;
+    padding: 5px;
+  }
+  h2{
+    letter-spacing: 5px;
+    color:rgb(148, 9, 9);
+  }
+  nav li:before{
+    font-family: Awesome;
+   padding: 10px;
+    font-size: 20px;
+  
+  }
+  .active:active{
+    background-color: white;
+  }
+  nav li:nth-child(1):before{content: " \f009 ";}
+  nav li:nth-child(2)::before{content: " \f022 ";}
+  nav li:nth-child(3)::before{content: " \f007 ";}
+  nav li:nth-child(4)::before{content: " \f128 ";}
+ .column
+{
+float: left;
+  
+ 
+  height: 700px;
+
+margin-right: 10px;
+}
+.column.side a:hover{
+  font-size: 16px;
+  color: blue;
+}
+.column.side{
+  width: 17%;
+  padding:-20px;
+}
+.column.b {
+  width: 75%;
+ 
+  padding: 10px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer p{
+  background-color: lightslategray;
+  padding: 10px;
+ text-align: center;
+
+}
+.column.side li{
+  padding: 5px;
+  list-style: none;
+  text-decoration: none;
+  background-color: grey;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.column.side a{
+  text-decoration: none;
+  color: white;
+}

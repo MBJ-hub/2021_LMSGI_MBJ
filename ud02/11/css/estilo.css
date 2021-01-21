@@ -1,0 +1,115 @@
+﻿body{
+	font-family:calibri;
+	background-image: url("../images/Le_petit_prince.png");
+	background-position: top right;
+	background-repeat:no-repeat;
+	margin-right:250px;
+}
+h1{
+	color: #FF4500;
+	background-color:#FFB973;
+	font-variant:small-caps;
+}
+div{
+	padding: 6px;
+	margin:6px 0px;
+}
+.par1{
+	color: #008000;
+	background-color: lightblue; 
+	padding-top:3px;
+	padding-bottom:3px;
+	margin:3px;
+}
+.static{
+	border-color: #E9967A;
+	border-style: solid;
+	
+}
+.relative{
+	border-color: #9932CC;
+	border-style: dotted;
+	position: relative;
+	left:3%;
+}
+.fixed{
+	border-color:#04B404;
+	background-color:#FFB973;
+	border-width:3px;
+	border-style: dashed;
+	max-width:234px;
+	position:fixed;
+	right:0px;
+	bottom:9px;
+}
+.absolute1{
+	position:absolute;
+	left:70%;
+	right:6px;
+	bottom:0px;
+	border-color: lightgreen;
+	border-style:solid;
+	border-width:3px;
+}
+
+.relative1{
+	position:relative;
+	border-color:green;
+	border-style:solid;
+	border-width:3px;
+	width:33%;
+	padding-bottom:100px;
+}
+.sticky{
+	color:#ADFF2F;
+	background-color:#008000;
+	text-align: center;
+	position: sticky;
+	border-radius:25px;
+}
+.img1{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	width: 30%;
+	opacity: 0.5;
+}
+.img2{
+	width: 50%;
+	top: auto;
+	opacity: 0.5;
+}
+.container{
+	position: relative;
+	border: solid 3px #8B008B;
+}
+.topleft, .topright, .bottomright, .bottomleft, .center{
+	position:absolute;
+	font-size:18px;
+	font-variant:small-caps;
+	background-color:#FF9C00;
+	border: solid 3px #8B008B;
+}
+.topleft{
+	top: 9px;
+	left: 9px;
+}
+.topright{
+	top: 9px;
+	right: 9px;
+}
+.bottomright{
+	bottom: 9px;
+	right: 9px;
+}
+.bottomleft{
+	bottom: 9px;
+	left: 9px;
+}
+.center{
+	top: 50%;
+	right: 50%;
+}
+
+
+

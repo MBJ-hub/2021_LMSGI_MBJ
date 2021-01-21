@@ -1,0 +1,109 @@
+<!--
+Autor: Mario Badallo Jimenez
+Creado: 27/10/2020
+Modificado: 28/10/2020
+-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML05 Mario Badallo Jimenez</title>
+		<link rel="icon" type="images/x-icon" href="Icono.ico">
+	</head>
+	<body>
+		<header>
+			<h1>Plantilla de formulario de animales</h1>
+		</header>
+		<form action="registro.php">
+			<fieldset style="background-color: #FF719A">
+				<legend style="border: 1px solid black; background-color:white">Animales</legend>
+				<table>
+					<tr>
+						<td><label for="Animals">Animales:</label></td>
+						<td><label for="nombre">Nombre cientifico:</label></td>
+						<td><label for="idLocalizacion">Lugar de origen:</label></td>
+					</tr>
+					<tr>
+						<td><input name="Animals" type="text" placeholder="Escribe un animal" id="Animals"></td>
+						<td><input name="nombre" type="text" placeholder="Escribe nombre cientifico" id="nombre"></td>
+						<td><input list="idLocalidad" name="Localidad" type="text" id="idLocalizacion">
+						<datalist id="idLocalidad">
+							<option value="Africa">
+							<option value="Asia">
+							<option value="America Norte">
+							<option value="America Sur">
+							<option value="Antartida">
+							<option value="Europa">
+							<option value="Oceania">
+						</datalist></td>
+					</tr>
+					<tr>
+						<td><label for="tlf">Telefono de contacto:</label></td>
+						<td><label for="fecha">Fecha de avistamiento:</label></td>
+					<tr>
+						<td><input type="text" name="tlf" id="tlf" placeholder="(000)000-0000"  pattern="\([0-9]{3})\ [0-9]{3}[ -][0-9]{4}"></td>
+						<td><input min="1999-01-01" name="fecha" type="date" id="fecha"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><label for="direccionCE">Correo Electronico:</label></td>
+					</tr>
+					<tr>
+						<td><input name="direccionCE" required type="email" placeholder="Introduce correo electronico" id="direccionCE"></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset style="background-color: rgb(111, 255, 159)">
+				<legend style="border: 1px solid black; background-color:white">¿Te gustan los animales?</legend>
+					<ul style="list-style:none;">
+						<li>
+							<label for="RespuestaA"><input type="radio" name="Afirmacion" id="RespuestaA">Si</label>
+						</li>
+						<li>
+							<label for="RespuestaN"><input type="radio" name="Afirmacion" id="RespuestaN">No</label>
+						</li>
+					</ul>
+			</fieldset>
+			<fieldset style="background-color: rgb(182, 128, 121)">
+			<legend style="border: 1px solid black; background-color:white">Organizaciones conocidas</legend>
+				<table>
+					<tr>
+						<td><label for="Organizacion1"><input type="checkbox" ID="Organizacion1">UICN</label></td>
+						<td><label for="Organizacion2"><input type="checkbox" ID="Organizacion2">WWF</label></td>
+						<td><label for="Organizacion3"><input type="checkbox" ID="Organizacion3">WAZA</label></td>
+						<td><label for="Organizacion4"><input type="checkbox" ID="Organizacion4"> AZA</label></td>
+						<td><label for="Organizacion5"><input type="checkbox" ID="Organizacion5">AZCARM</label></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset style="background-color: rgb(196, 255, 248 )">
+			<legend style="border: 1px solid black; background-color:white">SAFARIS</legend>
+				<ul style="list-style:none;">
+					<li>
+						<label for="IdHora">Horas del tour a realizar:</label>
+						<input type="time" name="horas" id="IdHora" min="00:45" max="03:45" step="5">
+					</li>
+					<li>
+						<label for="IdEscolta">¿Quieren escolta?<input id="IdEscolta" name="rango" type="range" min="1" max="2"></label>				
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset style="background-color: rgb(235,181,252)">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZkSxIbv_gbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</fieldset>
+			
+			<fieldset style="background-color: rgb(151, 254, 85)">
+			
+				<p>Expectativas:</p>
+				<textarea name="mensaje" placeholder="Cuentanos tus expectativas!"></textarea>
+			</fieldset>
+			
+			<input type="submit" value="Enviar Solicitud">
+			<p><button type="reset">Reset</button></p>
+		</form>
+	</body>
+</html>			
+ 
+
+
+
+					

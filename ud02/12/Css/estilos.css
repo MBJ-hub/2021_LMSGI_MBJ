@@ -1,0 +1,154 @@
+.d1,.d2{
+   
+    float: left;
+   
+    height: 900px;}
+    @font-face{
+        font-family: "Awesome";
+        src: url("../font/webfonts/fa-solid-900.woff");
+    }
+    .t1:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+#d1{
+    width: 30%;
+    background-color: gray;
+    padding-bottom: 5px;
+    padding: 20px;
+}
+#d1 span{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#d1 div{
+    padding-left: 10px;
+    margin: 10px;
+}
+#d1 span:before{
+    font-family: Awesome;
+position: relative;
+font-size: 20px;  
+width: 40px;
+height: 40px;
+text-align: center ;
+line-height: 50px;
+background-color: #000;
+color:#fff;
+border-radius: 50%;
+padding:6px;
+top: 0px;
+left: -9px;
+}
+#imge {
+    
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 70px;
+}
+img {
+    width: 150px;
+    height: 200px;
+}
+#d1 #direction:before{content: " \f06a";}
+#telef span:before{ content: "\f095";}
+#email span:before{content: "\f1fa";}
+#fecha span:before{content: "\f1fd";}
+#nac span:before{content: " \f024";}
+#estado span:before{content: "\f21e";}
+#dni span:before{content: "\f234";}
+#dispo span:before{content: " \f022";}
+
+#d2{
+    width: 55%;
+    background-color: yellow;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#p1,#p2{
+
+float: left;
+
+height: 300px;
+font-size: 16px;
+padding: 5px;
+margin-bottom: 15px;
+
+}
+#p1{
+    width: 40%;
+    padding-left: 50px;
+}
+#p2{
+    width: 45%; 
+}
+p::first-line{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+p{
+    font-style: italic;
+    text-transform: uppercase;
+    color: blue;
+}
+p span{
+    color: black;
+    font-style: normal;
+}
+li {
+    list-style-type: none;
+}
+hr{
+    border-top: 1px dotted blue;
+    width: 80%; 
+}
+hr::before {
+    font-family: Awesome;
+    position: absolute;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: -60px ;
+    margin-top: -15px;
+}
+hr:nth-child(1)::before{
+  
+    content:"H";
+}
+
+.element2:before{
+   
+    content:"\f19d";
+    
+}
+.element3:before{
+    content:"\f118";
+}
+.element4:before{
+    content:"\f0d1";
+}
+.element5:before{
+    content:"\f024";
+}
+#cajah hr:before{content:""};
+#br{
+height: 300px;
+}
+ul{
+    margin-top: 25px;
+}
+li:before {
+    content: '   ✓ ';
+    font-weight: bold;
+  }

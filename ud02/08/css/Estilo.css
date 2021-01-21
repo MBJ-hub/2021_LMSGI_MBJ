@@ -1,0 +1,34 @@
+div{
+	width:300px;
+	height:300px;
+	margin:10px;
+	display:inline-block;
+	
+	border:solid black 5px;
+	background-repeat:no-repeat;
+	background-size: 50%;
+}
+div:nth-child(1){
+	background-image: url("../images/puntonegro.png");
+	background-position:center;
+}
+div:nth-child(2){
+	background-image: url("../images/puntonegro.png"), url("../images/puntonegro.png");
+	background-position: top left, bottom right;
+}
+div:nth-child(3){
+	background-image: url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png");
+	background-position: top left, center, bottom right;
+}	
+div:nth-child(4){
+	background-image: url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png");
+	background-position: top left, top right, bottom right, bottom left;
+}
+div:nth-child(5){
+	background-image: url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png");
+	background-position: top left, top right, center, bottom right, bottom left;
+}
+div:nth-child(6){
+	background-image: url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"), url("../images/puntonegro.png"),url("../images/puntonegro.png");
+	background-position: top left, top right, center left, center right, bottom right, bottom left;
+}	

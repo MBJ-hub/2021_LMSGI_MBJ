@@ -1,0 +1,86 @@
+!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UFF-8">
+		<title>HTML 01 Mario Badallo jiménez</title>
+		</head>
+		<body>
+			<header>
+				<h1>DEPORTES</h1>
+			</header>
+			<section>
+				<h2>Fútbol></h2>
+				<article>
+					<header>
+						<h3>Titular sobre Fútbol</h3>
+						<h4>Subtitulo sobre Fútbol</h4>
+					</header>
+						<p>El Santiago Bernabéu ha cumplido durante décadas con buena nota su labor, lo ha convertido en un punto de peregrinación turística clave para la capital. Sin ir más lejos, en 2017 alcanzó los 1,5 millones de visitantes, sólo superado por los museos Reina Sofía y Prado y el Parque Warner.
+
+                    Durante la última década clubs referentes de Europa han actualizado sus estadios adaptándolos a las nuevas necesidades de los aficionados. Tras varias legislaturas persiguiéndolo, el equipo directivo que capitanea por Florentino Pérez cuenta con casi todas las piezas listas para convertir al Bernabéu en un referente a nivel mundial: un proyecto arquitectónico sólido conformado por la alemana GMT-Architekten y los estudios españoles L35 y Ribas Arquitectos.</p>
+					<footer>
+					<address>Real Madrid</address>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h3>Titular sobre Fútbol</h3>
+						<h4>Subtitulo sobre Fútbol</h4>
+					</header>
+						<p>Con la crisis de la COVID19 y las medidas de distanciamiento, la mayoría de las competiciones deportivas han tenido que tomar decisiones drásticas. Una de ellas ha sido cancelar partidos o jugarlos a puerta cerrada, lo que afecta y mucho a la experiencia del espectador. ¿Será lo mismo ver un partido con un Camp Nou o un Bernabéu vacío? Como te puedes imaginar, no va a ser lo mismo, pero puede que haya una solución.
+
+                        Llenar los estadios de manera digital.
+                        En la compañía deportiva OZ Sports son conscientes de que el fútbol, sin los aficionados, no es nada. Por ello, han creado un producto llamado OZ Arena que se sirve de realidad aumentada y que busca acabar con las gradas vacías en los estadios.</p>
+					<footer>
+					<address>OZ Studios</address>
+					</footer>
+				</article>
+			</section>
+			<section>
+				<h2>Baloncesto></h2>
+				<article>
+					<header>
+						<h3>Titular sobre Baloncesto</h3>
+						<h4>Subtitulo sobre Baloncesto</h4>
+					</header>
+						<p>Este estudio consiste investigar la relación entre los protocolos de saltos horizontales y verticales y la ejecución de acciones técnicas específicas en una muestra de 12 jugadores de baloncesto profesionales. Una plataforma de saltos conectada a un sistema de sincronización de infrarrojos se utilizó para analizar los saltos. Se hicieron análisis estadísticos con el fin de encontrar correlaciones entre saltos y acciones técnicas específicas. Sólo una pequeña parte de los protocolos de saltos horizontales y verticales estaban correlacionados significativamente con el rendimiento en acciones técnicas específicas en nuestra muestra de jugadores profesionales de baloncesto y este método no parece estar relacionado con la ejecución de las acciones técnicas específicas de la disciplina.</p>
+					<footer>
+					<address>Pablo Aznar Franco, Sebastian Sitko y Isaac López Laval</address>
+					</footer>
+				</article>
+			  	<article>
+					<header>
+						<h3>Titular sobre Baloncesto</h3>
+						<h4>Subtitulo sobre Baloncesto</h4>
+					</header>
+						<p>La variabilidad de la frecuencia cardíaca (VFC) se utiliza para la evaluación y comprensión de los cambios psicofisiológicos en los deportistas, sobre todo porque permite el seguimiento de la activación simpática y parasimpática del sistema nervioso autónomo (SNA). Este sistema es responsable de ayudar a satisfacer las demandas de entrenamiento y competencia. El propósito de este estudio es analizar la relación entre la VFC, los estados de ánimo, la ansiedad pre-competitiva y nivel autoconfianza de los jugadores de básquet al comienzo de una temporada deportiva. Los sujetos fueron 36 atletas de tres equipos de básquet de la categoría sub-15, de la ciudad de Curitiba / PR / Brasil. La VFC se midió antes de un juego, utilizando un equipo de biofeedback (BFB)</p>
+					<footer>
+					<address>Eugenio Pereira Paula Jr</address>
+					</footer>
+				</article>
+			</section>
+			<section>
+				<h2>Motor y Coches</h2>
+				<article>
+					<header>
+						<h3>Titular sobre Motor y Coches</h3>
+						<h4>Subtitulo sobre Motor y Coches</h4>
+					</header>
+						<p>Dando por hecho que toca coexistir con un mal bicho que se propaga continuamente y mata, nos vemos en el deber, por nosotros y por los que nos rodean, de cambiar alguno de nuestros hábitos y costumbres de vida. Un escenario en el que la movilidad, con sus diferentes tecnologías y sistemas de transporte, es parte importante. En este punto es de destacar que, según diferentes encuestas, el automóvil sigue siendo el preferido por la mayoría de los usuarios, si bien la utilización de bicicletas, motos o patinetes es una tendencia que está en constante crecimiento, especialmente en las grandes ciudades. Justo lo contrario de lo que está pasando con unos transportes públicos que están en un permanente desprestigio por no poder garantizar en horas punta las distancias mínimas obligatorias y ser un posible foco de contagio.</p>
+					<footer>
+					<address>Ángel Carchenilla</address>
+					</footer>
+				</article>
+				<article>
+				 <header>
+					<h3>Titular sobre Motor y Coches</h3>
+					<h4>Subtitulo sobre Motor y Coches</h4>
+				</header>
+					<p>Nos remontamos a los años 60, donde la cantidad de coches que circulaban las carreteras españolas crecía exponencialmente. La seguridad de los ocupantes, siendo importante, no era en aquellos tiempos lo prioritario. Y por supuesto, tampoco lo era sostenibilidad ambiental. La lucha automovilística se acentuaba en el desarrollo de la potencia de los motores y la velocidad máxima era todo un aval de prestigio.
+					La flota de vehículos crecía poco a poco, tanto en motocicletas como en coches. Entre tanta Bultaco, Mobylette, Vespino o coches como el Seat 600, Renault 4, el Citroën 2CV o el Tiburón, comenzaron poco a poco a verse más coches con prestaciones superiores. Los Mercedes SL descapotados, los primeros modelos deportivos de BMW o el clásico 911 de Porsche, aunque aún eran muy raros de ver, eran claros ejemplos de ello. Y de la mano de la mayor potencia claro está, mayor velocidad y por ende el número de accidentes creció también considerablemente.</p>
+					<footer>
+					<address>Ibon Galparsoro</address>
+					</footer>
+			</article>
+		</section>
+	<footer>Mario Badallo Jiménez</footer>

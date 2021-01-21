@@ -1,0 +1,118 @@
+h1{
+    color: Crimson;
+	font-weight:bold;
+	text-transform:capitalize;
+	text-decoration:underline;
+	text-decoration-style:wavy;
+	letter-spacing:5px;
+}
+@font-face {
+	font-family:ArchitectsDaughter-Regular;
+	src:url(../fonts/ArchitectsDaughter-Regular.ttf)
+}
+@font-face {
+	font-family:FrederickatheGreat-Regular;
+	src:url(../fonts/FrederickatheGreat-Regular.ttf)
+}
+@font-face {
+	font-family:Goldman-Bold;
+	src:url(../fonts/Goldman-Bold.ttf)
+}
+@font-face {
+	font-family:Goldman-Regular;
+	src:url(../fonts/Goldman-Regular.ttf)
+}
+@font-face {
+	font-family:Parisienne-Regular;
+	src:url(../fonts/Parisienne-Regular.ttf)
+}
+p {
+    background-color: Crimson;
+    font-family:'Goldman'; 
+	font-style:italic;
+	padding:5px 0;
+	
+}
+p span{
+	color:#fff;
+}
+p:first-letter{
+	font-size:2em;
+}
+body{
+	background-image:url("../images/Le_petit_prince.png");
+	background-position:top right;
+	background-repeat:no-repeat;
+	margin-right:300px;
+}
+.lista1 li,.lista2 li,.lista3 li{
+	border: 1px dashed Crimson;
+	font-family:ArchitectsDaughter;
+    }
+.lista1{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.lista1 li:nth-child(even)
+{
+	font-family:Goldman-Regular ;
+}
+.lista1 li:nth-child(odd)
+{
+	font-family:Goldman-Bold ;
+}
+.lista2{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.lista3{
+   list-style: square inside ;
+   list-style-image: url("../images/sqpurple.png");
+}
+.lista4 {
+	
+	list-style-type:none;
+	background-color:lightsalmon;
+	border:4px dashed darkred;
+	padding-left:10px;
+}
+.lista4 li {
+	background-color:darkred;
+	color:lightsalmon;
+	margin:5px;
+}
+.lista4 li:before{
+	content:"#";
+	width:1em;
+	 margin-left:-1em;
+	 color:darkred;
+	 padding:5px;
+}
+.lista5{
+	font-family:Parisienne-Regular;
+	border-left:8px solid darkred;
+	background-color:lightsalmon;
+	list-style-type:none;
+	color:darkred;
+	padding-left:10px;
+}
+.lista6 li {
+	list-style-type:none;
+	color:darkred;
+	font-family:Parisienne-Regular;
+}
+.lista6 li:first-child{
+	
+border-left: 1px solid darkred ;
+border-top: 1px solid darkred ;
+border-right: 1px solid darkred ;
+}
+.lista6 li:last-child{
+	
+	border-left: 1px solid darkred ;
+	border-bottom: 1px solid darkred ;
+	border-right: 1px solid darkred ;
+	border-top: 1px solid darkred ;
+	}
+
