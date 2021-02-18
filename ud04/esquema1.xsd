@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+<!DOCTYPE mail[
+    <!ELEMENT remitente (#PCDATA)>
+    <!ELEMENT destinatario (#PCDATA)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT fecha (dia, mes, anyo)>
+    <!ELEMENT fichero (nombre, tipo)>
+    <!ELEMENT mail (remitente, destinatario+, fecha, asunto?, mensaje?, fichero*)>
+]>
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="mail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="remitente" type="xs:string"/>
+                <xs:element name="destinatario" type="xs:string" maxOccurs="unbounded"/>
+                <xs:element name="asunto" type="xs:string" minOccurs="0"/>
+                <xs:element name="mensaje" type="xs:string" minOccurs="0"/> 
+                <xs:element name="fichero" minOccurs="0" maxOccurs="unbounded"/> 
+                <xs:complexType name="fecha">
+                    <xs:element name="dia" type="xs:gDay"/>
+                    <xs:element name="mes" type="xs:gMonth"/>
+                    <xs:element name="anyo" type="xs:gYear"/>
+                </xs:complexType>
+                <xs:complexType>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="tipo" type="xs:string"/>
+                </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

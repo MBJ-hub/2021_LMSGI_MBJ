@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+<!DOCTYPE mail[
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>
+    <!ELEMENT fila (continente, pais, capital)>
+    <!ELEMENT mundo (fila+)>
+    
+]>
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+           
+    <xs:complexType>
+        <xs:sequence> 
+            <xs:element name="row" maxOccurs="unbounded">
+                <xs:element name="continente" type="xs:string"/>
+                <xs:element name="pais" type="xs:string"/>
+                <xs:element name="capital" type="xs:string"/>
+            </xs:element>
+        </xs:sequence>   
+    </xs:complexType>  
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mail[
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>
+    <!ELEMENT fila (continente, pais, capital)>
+    <!ELEMENT mundo (fila+)>
+    
+]>
+<mundo>
+    <fila>
+        <continente>Europa</continente>
+        <pais>Alemania</pais>
+        <capital>Berlín</capital>
+    </fila>
+    <fila>
+        <continente>América</continente>
+        <pais>Argentina</pais>
+        <capital>Buenos Aires</capital>
+    </fila>
+    <fila>
+        <continente>América</continente>
+        <pais>Bahamas</pais>
+        <capital>Nassau</capital>
+    </fila>
+    <fila>
+        <continente>Asia</continente>
+        <pais>Afganistán</pais>
+        <capital>Kabul</capital>
+    </fila>
+    <fila>
+        <continente>Asia</continente>
+        <pais>Arabia Saudita</pais>
+        <capital>Riad</capital>
+    </fila>
+</mundo>

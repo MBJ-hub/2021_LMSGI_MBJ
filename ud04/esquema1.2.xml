@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<mail
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='esquema1.xsd'>
+    <remitente>Mario</remitente>
+    <destinatario>Apa</destinatario>
+    <fecha>
+        
+    
+        
+    </fecha>
+    <asunto>clases</asunto>
+    <mensaje>hola apa</mensaje>
+    <fichero></fichero>
+    <fichero></fichero>
+    <fichero></fichero>
+
+</mail>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mail[
+    <!ELEMENT remitente (#PCDATA)>
+    <!ELEMENT destinatario (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT fecha EMPTY>
+    <!ELEMENT fichero (#PCDATA)>
+    <!ELEMENT mail (remitente, destinatario+, fecha, asunto?, mensaje?, fichero*)>
+    <!ATTLIST fecha dia CDATA #REQUIRED>
+    <!ATTLIST fecha mes CDATA #REQUIRED>
+    <!ATTLIST fecha anyo CDATA #REQUIRED>
+    <!ATTLIST fichero tipo CDATA #IMPLIED>
+]>
+<mail>
+    <remitente>mariobadallo@gmail.com</remitente>
+    <destinatario>davidApa@gmail.com</destinatario>
+    <destinatario>meli@gmail.com</destinatario>
+	<fecha dia="---16" mes="--01" anyo="2021"/>
+	<asunto>Prueba de mensajes</asunto>
+	<mensaje/>
+        <fichero tipo="aplication/pdf">informe.pdf</fichero>
+        <fichero tipo="image/jpeg">foto.jpg</fichero>
+</mail>
