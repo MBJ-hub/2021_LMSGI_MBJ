@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/12.dtd
+-->
+<!--
+Menu del chef @Mario Badallo.
+-->
+<!ELEMENT recetas (receta)*>
+<!ATTLIST recetas
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT receta (nombre|descripcion|tiempo|ingredientes|instrucciones)*>
+<!ATTLIST receta
+    plato (primero|segundo|postre) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tiempo EMPTY>
+<!ATTLIST tiempo
+    preparacion CDATA #IMPLIED
+    coccion CDATA #IMPLIED
+  >
+<!ELEMENT ingredientes (ingrediente)+>
+<!ELEMENT ingrediente (nombre,cantidad*)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ATTLIST cantidad
+    unidad CDATA #IMPLIED
+  >
+<!ELEMENT instrucciones (paso)*>
+<!ELEMENT paso (#PCDATA)>

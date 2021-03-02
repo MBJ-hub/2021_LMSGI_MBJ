@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas SYSTEM "RecetaMario.dtd">
+<!--
+Menu del chef @Mario Badallo.
+-->
+
+<recetas
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='RecetaMario.xsd'>
+    <receta plato="primero">
+        <nombre>Risotto milanesa</nombre>
+        <descripcion>Pues un risotto</descripcion>
+        <tiempo preparacion="15" coccion="20"/>
+        <ingredientes>
+            <ingrediente>
+                <nombre>Arroz</nombre>
+                <cantidad unidad="gramos">500</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Cebolla mediana</nombre>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Azafran</nombre>
+                <cantidad unidad="pizca">1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Queso parmesano</nombre>
+                <cantidad unidad="gramos">100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Mantequilla</nombre>
+                <cantidad unidad="gramos">100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Sal</nombre>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Pimienta</nombre>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Caldo</nombre>
+                <cantidad unidad="mililitros">1000</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Vino blanco</nombre>
+                <cantidad unidad="chorro">1</cantidad>
+            </ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Picamos la cebolla y la pochamos con la mitad de la mantequilla.</paso>
+            <paso>Cuando esté transparente, echamos el azafrán, el vino y dejamos que reduzca.</paso>
+            <paso>A continuación, incorporamos el arroz, lo sofreímos un poco.</paso>
+            <paso>Vamos añadiendo el caldo caliente poco a poco mientras removemos.</paso>
+            <paso>Salpimentamos.</paso>
+            <paso>Cuando esté casi hecho, agregamos el resto de la mantequilla y el queso.</paso>
+            <paso>Servimos enseguida.</paso>
+        </instrucciones>
+    </receta>
+</recetas>
