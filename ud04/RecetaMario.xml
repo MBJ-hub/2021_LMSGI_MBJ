@@ -8,8 +8,8 @@ Menu del chef @Mario Badallo.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='RecetaMario.xsd'>
     <receta plato="primero">
-        <nombre>Risotto milanesa</nombre>
-        <descripcion>Pues un risotto</descripcion>
+        <nombre>Risotto milanese ricetta</nombre>
+        <descripcion>Il miglior risotto</descripcion>
         <tiempo preparacion="15" coccion="20"/>
         <ingredientes>
             <ingrediente>
@@ -56,4 +56,5 @@ Menu del chef @Mario Badallo.
             <paso>Servimos enseguida.</paso>
         </instrucciones>
     </receta>
+    <!--Ojala les haya gustado.-->
 </recetas>
