@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@Mario Badallo Jiménez
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+<!ELEMENT catalogo (portatil*)>
+<!ATTLIST catalogo
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED>
+<!ELEMENT portatil (referencia,nombre,fabricante,procesador,ram,disco,pantalla,grafica,fotos*)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fabricante EMPTY>
+<!ATTLIST fabricante
+        nombre (LENOVO|HP|MSI|APPLE|ASUS|DELL|DESCONOCIDO) #REQUIRED>
+<!ELEMENT procesador (nombreP,cache,n_Procesadores,velocidad)>
+<!ELEMENT nombreP (#PCDATA)>
+<!ELEMENT cache (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>
+<!ELEMENT resolucion (#PCDATA)>
+<!ELEMENT resolucion_max (#PCDATA)>
+<!ELEMENT grafica (#PCDATA)>
+<!ELEMENT fotos (#PCDATA)>
+<!ATTLIST cache 
+          tamanyo (Mb|Gb|Tb) "Gb">
+<!ELEMENT n_Procesadores (#PCDATA)>
+<!ELEMENT velocidad (#PCDATA)>
+<!ATTLIST velocidad
+        medida CDATA #FIXED "GHz">
+<!ELEMENT ram (memoria,tipo)>
+<!ELEMENT memoria (#PCDATA)>
+<!ATTLIST memoria
+          unidad_de_medida (Mb|Gb|Tb) "Gb" >
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT disco (#PCDATA)>
+<!ATTLIST disco
+          tipo (SSD|HDD) #REQUIRED
+          capacidad (Mb|Gb|Tb) #REQUIRED>
+<!ELEMENT pantalla (dimension,resolucion,resolucion_max?)>

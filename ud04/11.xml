@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@Mario Badallo Jiménez
+-->
+<!DOCTYPE catalogo SYSTEM '11.dtd'>
+<catalogo xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+          xsi:noNamespaceSchemaLocation='11.xsd'>
+    <portatil>
+        <referencia>HP10219</referencia>
+        <nombre>PORTATIL HP 15-DA0204NS</nombre>
+        <fabricante nombre="HP"/>
+        <procesador>
+            <nombreP>CORE I3-7020U</nombreP>
+            <cache tamanyo="Mb"></cache>
+            <n_Procesadores></n_Procesadores>
+            <velocidad medida="GHz">2,3GHZ</velocidad>
+        </procesador>
+        <ram>
+            <memoria unidad_de_medida="Gb">8GB</memoria>
+            <tipo>DDR3</tipo>
+        </ram>
+        <disco capacidad="Gb" tipo="SSD">256Gb SSD</disco>
+        <pantalla>
+            <dimension>15.6 pulgadas</dimension>
+            <resolucion>1266x768</resolucion>
+            <resolucion_max>1366x768</resolucion_max>
+        </pantalla>
+        <grafica>UHD Graphics 620</grafica>
+        <fotos>foto1.png</fotos>
+    </portatil>
+    <portatil>
+        <referencia></referencia>
+        <nombre>PORTATIL LENOVO IDEAPAD</nombre>
+        <fabricante nombre="LENOVO"/>
+        <procesador>
+            <nombreP>S145 CORE I3-8145U</nombreP>
+            <cache tamanyo="Gb"></cache>
+            <n_Procesadores></n_Procesadores>
+            <velocidad medida="GHz">2,1GHZ</velocidad>
+        </procesador>
+        <ram>
+            <memoria unidad_de_medida="Gb">8GB</memoria>
+            <tipo>DDR3</tipo>
+        </ram>
+        <disco capacidad="Gb" tipo="SSD">256Gb SSD</disco>
+        <pantalla>
+            <dimension>15.6 pulgadas</dimension>
+            <resolucion>1266x768</resolucion>
+        </pantalla>
+        <grafica>UHD Graphics 620</grafica>
+        <fotos>foto2.png</fotos>
+        <fotos>foto3.png</fotos>
+    </portatil>
+</catalogo>
+

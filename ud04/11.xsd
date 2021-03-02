@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="portatil">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="referencia" type="xs:string" />
+                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="fabricante">
+                    <xs:complexType>
+                        <xs:attribute name="nombre" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="procesador">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombreP" type="xs:string" />
+                            <xs:element name="cache">
+                                <xs:complexType>
+                                    <xs:attribute name="tamanyo" type="xs:string" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="n_Procesadores" />
+                            <xs:element name="velocidad">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="medida" type="xs:string" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ram">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="memoria">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="unidad_de_medida" type="xs:string" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="tipo" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="disco">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="capacidad" type="xs:string" use="required" />
+                                <xs:attribute name="tipo" type="xs:string" use="required" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pantalla">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dimension" type="xs:string" />
+                            <xs:element name="resolucion" type="xs:string" />
+                            <xs:element name="resolucion_max" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="grafica" type="xs:string" />
+                <xs:element name="fotos" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
