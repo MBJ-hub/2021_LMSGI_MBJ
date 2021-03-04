@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!ELEMENT Multimedia (animales)*>
+<!ELEMENT animales (#PCDATA)>
+<!ATTLIST animales
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED>
+<!ELEMENT pregunta (#PCDATA)>
+<!ELEMENT lista (#PCDATA)>
+<!ATTLIST pregunta 
+    lista (reptil|mamifero|anfibio|pez|aves|insectos) #REQUIRED>
+<!ELEMENT reptil (#PCDATA)>
+<!ELEMENT mamifero (#PCDATA)>
+<!ELEMENT anfibio (#PCDATA)>
+<!ELEMENT pez (#PCDATA)>
+<!ELEMENT aves (#PCDATA)>
+<!ELEMENT insectos (#PCDATA)>
+<!ELEMENT pregunta2 (#PCDATA)>
+<!ELEMENT autor EMPTY>
+<!ATTLIST autor 
+        datos (nombre|apellidos) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT derechos (#PCDATA)>
+<!ELEMENT audios (#PCDATA)>
+<!ATTLIST audios
+          espacio (Kb|Mb|Gb) "Gb">
+<!ELEMENT videos (#PCDATA)>
+<!ELEMENT tamanyo (#PCDATA)>
+<!ATTLIST videos
+          tamanyo (Mb|Gb|Tb) "Gb">
+<!ELEMENT imagenes (#PCDATA)>
+<!ATTLIST imagenes
+          ocupa (Kb|Mb|Gb) "Gb">
+<!ELEMENT texto (#PCDATA)>

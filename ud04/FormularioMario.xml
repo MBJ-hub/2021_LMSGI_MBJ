@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Multimedia SYSTEM 'FormularioMario.dtd'>
+<!--
+Animales
+@Mario Badallo Jiménez
+-->
+<Multimedia
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xs:noNamespaceSchemaLocation='FormularioMario.xsd'>
+    
+    <animales>
+        <imagenes>GATOO.jpg</imagenes>
+        <imagenes>Jungla.jpg</imagenes>
+        <imagenes>LAGATOOO.jpg</imagenes>
+        <imagenes>mamifero.jpg</imagenes>
+        <imagenes>PAJARO.jpg</imagenes>
+        <imagenes>pez.jpg</imagenes>
+        <imagenes>reptil.jpg</imagenes>
+        
+        <pregunta lista="reptil">
+            <lista>
+                <reptil>reptil</reptil>
+                <mamifero>mamifero</mamifero>
+                <anfibio>anfibio</anfibio>
+                <pez>pez</pez>
+                <aves>aves</aves>
+                <insectos>insectos</insectos>
+            </lista>
+        </pregunta>
+        <pregunta2>
+            <audios espacio="Kb">21,5Kb</audios>
+            <audios espacio="Kb">30,4Kb</audios>
+            <audios espacio="Kb">31,2Kb</audios>
+        </pregunta2>
+        
+        <videos tamanyo="Gb">2,3Gb</videos>
+        <videos tamanyo="Gb">3,2Gb</videos>
+        <videos tamanyo="Gb">3Gb</videos>
+        
+        <texto>Derechos de autor reservados a Mario Badallo Jiménez</texto>
+        
+    </animales>
+</Multimedia>
