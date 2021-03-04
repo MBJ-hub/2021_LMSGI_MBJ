@@ -16,16 +16,18 @@ and open the template in the editor.
                             <xs:element name="pregunta">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:compexType name="lista">
-                                            <xs:sequence>
-                                                <xs:element name="reptil" />
-                                                <xs:element name="mamifero" />
-                                                <xs:element name="anfibio" />
-                                                <xs:element name="pez" />
-                                                <xs:element name="aves" />
-                                                <xs:element name="insectos" />
-                                            </xs:sequence>
-                                        </xs:compexType>
+                                        <xs:element name="lista">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="reptil" />
+                                                    <xs:element name="mamifero" />
+                                                    <xs:element name="anfibio" />
+                                                    <xs:element name="pez" />
+                                                    <xs:element name="aves" />
+                                                    <xs:element name="insectos" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
