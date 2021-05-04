@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><factura>
+    <n_factura>F555</n_factura>
+            
+    
+    <datos_emisor>
+                
+        <nombre>Informática Sauces</nombre>
+                
+        <dir>Av. Federico Silva, 48</dir>
+                
+        <poblacion>
+            <cod_postal>49800</cod_postal>
+            Benavente
+        </poblacion>
+                
+        <provincia>Zamora</provincia>
+                
+        <cif>Q-99777000</cif>
+                
+        <telefono>
+            <num_tel>917776688</num_tel>
+        </telefono>
+                
+        <fax>
+            <num_fax>917776688</num_fax>
+        </fax>
+            
+    </datos_emisor>
+        
+    <datos_receptor>
+        <n_cli>R879</n_cli>
+                
+        <nombre>Victoria, Abril</nombre>
+                
+        <dir_env>Av. Gijón nº1 2ºd</dir_env>
+                
+        <poblacion>
+            <cod_postal>28043</cod_postal>
+            Madrid
+        </poblacion>
+                
+        <provincia>Madrid</provincia>
+            
+    </datos_receptor>
+        
+    <datos_factura>
+        <n_ped>E731</n_ped>
+        <iva>16</iva>
+        <f_pago>efectivo</f_pago>
+        <moneda>euro</moneda>
+                
+        <fecha>2005-12-01</fecha>
+                
+        <linea>
+                        
+            <ref>MII93000F/8</ref>
+                        
+            <desc>Intel</desc>
+                        
+            <cant>1</cant>
+                        
+            <precio>230</precio>
+                        
+            <importe>266.80</importe>
+                    
+        </linea>
+                
+        <linea>
+                        
+            <ref>MB8QDIP4</ref>
+                        
+            <desc>PLACA BASE QDI P4</desc>
+                        
+            <cant>1</cant>
+                        
+            <precio>180</precio>
+                        
+            <importe>208.80</importe>
+                    
+        </linea>
+                
+        <linea>
+                        
+            <ref>MEDD512M32</ref>
+                        
+            <desc>DIMM DDR 512MB 3200</desc>
+                        
+            <cant>2</cant>
+                        
+            <precio>40</precio>
+                        
+            <importe>92.80</importe>
+                    
+        </linea>
+                
+        <linea>
+                        
+            <ref>HD250GSA7</ref>
+                        
+            <desc>DISCO DURO 250GB S-ATA 7200</desc>
+                        
+            <cant>4</cant>
+                        
+            <precio>120</precio>
+                        
+            <importe>556.80</importe>
+                    
+        </linea>
+                
+        <base>970.00</base>
+                
+        <cuota_iva>155.20</cuota_iva>
+                
+        <total>1125.20</total>
+            
+    </datos_factura>
+    
+</factura>
