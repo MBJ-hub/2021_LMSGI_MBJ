@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE horario SYSTEM "10.dtd">
+
+<horario curso="2020-21"  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='10.xsd' >
+    <modulos>    
+        <modulo codM="EDD" >Entornos de Desarrollo</modulo>
+        <modulo codM="LMSGI">Lenguaje de Marcas y Sistemas de Gestion de la Información</modulo>
+        <modulo codM="PROG">Programación</modulo>
+        <modulo codM="BBDD">Bases de Datos</modulo>
+        <modulo codM="FOL">Formación y orientación laboral</modulo>
+        <modulo codM="SINF">Sistemas de Información</modulo>
+    </modulos>
+    <profesores>
+        <profesor codP="MUP">Marcos Unzueta Puente</profesor>
+        <profesor codP="ARN">Amor Rodriguez Navarro</profesor>
+        <profesor codP="ACF">Ambrosio Casado Fernandez</profesor>
+        <profesor codP="HRO">Hermelinda Ramos Osorio</profesor>
+        <profesor codP="MAM">Maria del Cielo Alejo Mulas</profesor>
+        <profesor codP="NCB">Natividad Crespo Belver</profesor>   
+    </profesores>
+    <imparte>
+        <asignatura codM="EDD" codProfesor="MUP"/>
+        <asignatura codM="LMSGI" codProfesor="ARN HRO"/>
+        <asignatura codM="PROG"  codProfesor="ACF"/>
+        <asignatura codM="BBDD"  codProfesor="HRO"/>
+        <asignatura codM="FOL"   codProfesor="MAM"/>
+        <asignatura codM="SINF"  codProfesor="NCB"/>
+    </imparte>  
+    <grupo idgrupo="DAW2" codT="MUP">
+        <hora entrada="08:30" salida="09:20">
+            <dia_sem dia="lunes" num="1">EDD</dia_sem>
+            <dia_sem dia="martes" num="2">BBDD</dia_sem>
+            <dia_sem dia="miercoles" num="2">PROG</dia_sem>
+            <dia_sem dia="jueves" num="2">LMSGI</dia_sem>
+            <dia_sem dia="viernes" num="1">EDD</dia_sem>			
+        </hora>
+        <hora entrada="09:20" salida="10:10">
+            <dia_sem dia="lunes" num="2">SINF</dia_sem>
+            <dia_sem dia="viernes" num="2">SINF</dia_sem>			
+        </hora>
+        <hora entrada="10:10" salida="11:00">
+           
+            <dia_sem dia="martes" num="2">PROG</dia_sem>
+            <dia_sem dia="miercoles" num="1">FOL</dia_sem>
+            <dia_sem dia="jueves" num="2">PROG</dia_sem>		
+        </hora>
+        <hora entrada="11:00" salida="11:50">		
+            <dia_sem dia="lunes" num="2">PROG</dia_sem>
+            <dia_sem dia="miercoles" num="2">BBDD</dia_sem>
+            <dia_sem dia="viernes" num="1">FOL</dia_sem>				
+        </hora>
+        <hora entrada="12:15" salida="13:05">
+           
+            <dia_sem dia="martes" num="2">LMSGI</dia_sem>
+          
+            <dia_sem dia="jueves" num="2">SINF</dia_sem>
+            <dia_sem dia="viernes" num="2">BBDD</dia_sem>
+        </hora>
+        <hora entrada="13:05" salida="13:55">
+            <dia_sem dia="lunes" num="1">FOL</dia_sem>
+            <dia_sem dia="miercoles" num="1">EDD</dia_sem>		
+        </hora>
+    </grupo>
+</horario>	

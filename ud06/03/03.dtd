@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT horario (modulos,profesores,imparte, grupo*)>
+<!ATTLIST horario
+    curso CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+   xsi:noNamespaceSchemaLocation  CDATA #IMPLIED
+>
+<!ELEMENT modulos (modulo)*>
+<!ELEMENT modulo (#PCDATA)>
+<!ATTLIST modulo 
+     codM (EDD|LMSGI|PROG|BBDD|FOL|SINF|XXX)  #REQUIRED>
+<!ELEMENT profesores (profesor*)>
+<!ELEMENT profesor (#PCDATA)>
+<!ATTLIST profesor
+    codP  ID #REQUIRED>
+<!ELEMENT imparte (asignatura)*>
+<!ELEMENT asignatura EMPTY>
+<!ATTLIST asignatura 
+         codM (EDD|LMSGI|PROG|BBDD|FOL|SINF|XXX)  #REQUIRED
+         codProfesor IDREFS #REQUIRED>
+<!ELEMENT grupo (hora)*>
+<!ATTLIST grupo
+    idgrupo (DAW1|DAW2|SMR2|SMR1) #REQUIRED
+    codT IDREF #REQUIRED>
+<!ELEMENT hora (dia_sem)*>
+<!ATTLIST hora
+    entrada (08:30|09:20|10:10|11:00|12:15|13:05) #REQUIRED
+    salida (09:20|10:10|11:00|11:50|12:15|13:05|13:55) #REQUIRED >
+<!ELEMENT dia_sem (#PCDATA)>
+<!ATTLIST dia_sem
+    dia (lunes|martes|miercoles|jueves|viernes) #REQUIRED
+    num (1|2)  "1" >

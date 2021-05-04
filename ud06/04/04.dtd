@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/04.dtd
+
+-->
+<!ELEMENT factura (datos_emisor, datos_receptor,datos_factura)>
+<!ATTLIST factura
+    n_factura CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+<!--- Elemento datos_emisor -->
+<!ELEMENT datos_emisor (nombre,dir,poblacion,provincia,cif,telefono?,fax?)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dir (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ATTLIST poblacion
+    cod_postal CDATA #IMPLIED
+  >
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ATTLIST telefono
+    num_tel CDATA #FIXED "917776688"  >
+
+<!ELEMENT fax EMPTY>
+<!ATTLIST fax
+    num_fax CDATA #FIXED "917776688" >
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT datos_receptor (nombre,dir_env,poblacion,provincia)>
+<!ATTLIST datos_receptor
+    n_cli CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dir_env (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT datos_factura (fecha,linea*,base,cuota_iva,total)>
+<!ATTLIST datos_factura
+    n_ped CDATA #IMPLIED
+    iva CDATA #IMPLIED
+    f_pago (efectivo|tarjeta|plazos) #REQUIRED
+    moneda CDATA #IMPLIED
+  >
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fecha (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT linea (ref,desc,cant,precio,importe)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ref (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT desc (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cant (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT precio (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT importe (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT base (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cuota_iva (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT total (#PCDATA)>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="02.xsl"?>
+<!-- Autor .- Mario Badallo Jiménez -->
+<!-- Fecha.- Lunes 20 de abril de 2020 -->
+<!-- Descripcion .- Listado de tickets -->
+<listatickets>
+    <ticket>
+        <numero>7483</numero>
+        <fecha>2012-01-20</fecha>
+        <hora>22:00:00</hora>
+        <producto>
+            <nombre>Agua</nombre>
+            <precio>0.60</precio>
+        </producto>
+        <producto>
+            <nombre>Refresco</nombre>
+            <precio>1.00</precio>
+        </producto>	
+        <total>1.60</total>
+    </ticket>
+    <ticket>
+        <numero>7484</numero>
+        <fecha>2012-01-21</fecha>
+        <hora>22:05:00</hora>
+        <producto>
+            <nombre>Refresco</nombre>
+            <precio>1.00</precio>
+        </producto>
+        <producto>
+            <nombre>Refresco</nombre>
+            <precio>1.00</precio>
+        </producto>	
+        <total>2.00</total>
+    </ticket>
+</listatickets>	

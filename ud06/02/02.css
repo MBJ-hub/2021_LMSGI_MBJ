@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 abr. 2021, 9:47:24
+    Author     : daw1
+*/
+*{
+   background-color: white;
+   color: black;   
+}
+header{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 10px;  
+}
+h1{
+    border: solid green 2px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.numticket{
+    border-top: dotted green 1px;
+    border-bottom: dotted greenyellow 1px;
+    padding: 10px;
+    font-size: 24px;
+}
+table,tr,th,td{
+    border-top: solid green 1px;
+    border-bottom: solid green 1px;
+    border-collapse: collapse;    
+}
+th{
+    background-color: white;
+    color: black;
+}
+table{
+    left: 50%;
+    font-size: 20px;
+    width: 60%;
+}
+.fecha{
+    text-align: center;
+    color: #0079DB;
+}
+.numeros{
+    font-size:20px;
+    text-align:right;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.price{
+    text-align: center;
+}
