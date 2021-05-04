@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<garaje 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xs:noNamespaceSchemaLocation="garaje.xsd">
+    <coches>
+        <coche>
+            <matricula>1234A</matricula>
+            <propietario>P01</propietario>
+            <marca>Seat</marca>
+            <modelo>Leon 1.6 TDI</modelo>
+            <color>Gris</color>
+            <km>125000</km>
+        </coche>
+        <coche>
+            <matricula>4444B</matricula>
+            <propietario>P02</propietario>
+            <marca>Seat</marca>
+            <modelo>Altea XL</modelo>
+            <color>Oro</color>
+            <km>90000</km>
+        </coche>
+        <coche>
+            <matricula>1233A</matricula>
+            <propietario>P03</propietario>
+            <marca>Seat</marca>
+            <modelo>Ibiza 1.4 TDI</modelo>
+            <color>Rojo</color>
+            <km>145000</km>
+        </coche>
+        <coche>
+            <matricula>0011A</matricula>
+            <propietario>P04</propietario>
+            <marca>Volkswagen</marca>
+            <modelo>Golf 1.6 TDI</modelo>
+            <color>Negro</color>
+            <km>220000</km>
+        </coche>
+        <coche>
+            <matricula>1100B</matricula>
+            <propietario>P05</propietario>
+            <marca>Volkswagen</marca>
+            <modelo>Polo 1.2 Advance</modelo>
+            <color>Rojo</color>
+            <km>300000</km>
+        </coche>
+        <coche>
+            <matricula>1001A</matricula>
+            <propietario>P05</propietario>
+            <marca>Renault</marca>
+            <modelo>Clio Authentique 1.3</modelo>
+            <color>Rojo</color>
+            <km>10000</km>
+        </coche>
+        <coche>
+            <matricula>1222C</matricula>
+            <propietario>P06</propietario>
+            <marca>Renault</marca>
+            <modelo>Megane Berlina GT</modelo>
+            <color>Acero</color>
+            <km>240000</km>
+        </coche>
+        <coche>
+            <matricula>2211C</matricula>
+            <propietario>P07</propietario>
+            <marca>Ford</marca>
+            <modelo>Konnect Combi</modelo>
+            <color>Marino</color>
+            <km>312000</km>
+        </coche>
+        <coche>
+            <matricula>1234C</matricula>
+            <propietario>P08</propietario>
+            <marca>Ford</marca>
+            <modelo>Ranger</modelo>
+            <color>Verde</color>
+            <km>125600</km>
+        </coche>
+    </coches>
+    <reparaciones>
+        <reparacion codigo="J0001">
+            <matricula>1234A</matricula>
+            <descripcion>Fallo elevalunas</descripcion>
+            <fecha_entrada>2013/06/03</fecha_entrada>
+            <fecha_salida>2013/06/03</fecha_salida>
+            <horas>2</horas>
+        </reparacion>
+        <reparacion codigo="J0002">
+            <matricula>4444B</matricula>
+            <descripcion>Cambio aceite</descripcion>
+            <fecha_entrada>2013/06/03</fecha_entrada>
+            <fecha_salida>2013/06/04</fecha_salida>
+            <horas>1</horas>
+        </reparacion>
+        <reparacion codigo="J0003">
+            <matricula>4444B</matricula>
+            <descripcion>Cambio neumaticos</descripcion>
+            <fecha_entrada>2013/06/03</fecha_entrada>
+            <fecha_salida>2013/06/04</fecha_salida>
+            <horas>2</horas>
+        </reparacion>
+        <reparacion codigo="J0004">
+            <matricula>0011A</matricula>
+            <descripcion>Cambio rueda</descripcion>
+            <fecha_entrada>2013/06/04</fecha_entrada>
+            <fecha_salida>2013/06/04</fecha_salida>
+            <horas>1</horas>
+        </reparacion>
+        <reparacion codigo="J0005">
+            <matricula>1100B</matricula>
+            <descripcion>Fallo encendido</descripcion>
+            <fecha_entrada>2013/06/04</fecha_entrada>
+            <fecha_salida>2013/06/06</fecha_salida>
+            <horas>20</horas>
+        </reparacion>
+        <reparacion codigo="J0006">
+            <matricula>1001A</matricula>
+            <descripcion>Cambio aceite</descripcion>
+            <fecha_entrada>2013/06/05</fecha_entrada>
+            <fecha_salida>2013/06/05</fecha_salida>
+            <horas>1</horas>
+        </reparacion>
+        <reparacion codigo="J0007">
+            <matricula>1222C</matricula>
+            <descripcion>Fallo electrico</descripcion>
+            <fecha_entrada>2013/06/06</fecha_entrada>
+            <fecha_salida>2013/06/08</fecha_salida>
+            <horas>10</horas>
+        </reparacion>
+        <reparacion codigo="J0008">
+            <matricula>2211C</matricula>
+            <descripcion>Cambio rueda</descripcion>
+            <fecha_entrada>2013/06/06</fecha_entrada>
+            <fecha_salida>2013/06/06</fecha_salida>
+            <horas>2</horas>
+        </reparacion>
+        <reparacion codigo="J0009">
+            <matricula>1234C</matricula>
+            <descripcion>Cambio aceite</descripcion>
+            <fecha_entrada>2013/06/07</fecha_entrada>
+            <fecha_salida>2013/06/07</fecha_salida>
+            <horas>1</horas>
+        </reparacion>
+    </reparaciones>
+</garaje>
