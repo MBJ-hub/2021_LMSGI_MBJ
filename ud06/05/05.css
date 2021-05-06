@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 may. 2021, 6:32:40
+    Author     : Mario
+*/
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Bordes*/
+table{
+    width: 80%;
+    margin: 1% auto;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-left: 5%;
+}
+
+/*Cabecera*/
+thead{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titulo{
+    color: red;
+}
+
+/*Resaltado*/
+td{
+    font-weight: bold;
+}
+
+/*Tabla interior*/
+table table{
+    width: 99%;
+    color: black;
+}
+
+table table td{
+    font-weight: normal;
+}
