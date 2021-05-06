@@ -22,15 +22,15 @@ table, tr, th, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
-
 th, td{
-    padding-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 /*Cabecera*/
 thead{
     text-align: center;
-    color: blue;
+    color: #cccc00;
     text-transform: uppercase;
     font-weight: bold;
 }
