@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 may. 2021, 9:08:24
+    Author     : daw1
+*/
+*{
+    font-family: Calibri, monospace;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+table{
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+table, td, tr, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+caption{
+    font-variant: small-caps;
+    margin-bottom: 2%;
+}
+div{
+    margin-bottom: 3%;
+}
+div.caja{
+    margin-bottom: auto;
+    width: 49.5%;
+    display: inline-block;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 0.3%;
+}
+nav a{
+    text-decoration: none;
+    padding: 5%;
+}
+nav a:visited, nav a:link, nav a:active{
+    color: white;
+}
+nav a:hover{
+    color: lightsteelblue;
+}
+h2{
+    margin: 2% 0;
+}
+abbr{
+    text-decoration: none;
+}

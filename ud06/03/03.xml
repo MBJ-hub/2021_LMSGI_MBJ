@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE horario SYSTEM "10.dtd">
+<!DOCTYPE horario SYSTEM "03.dtd">
 
 <horario curso="2020-21"  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='10.xsd' >
+    xsi:noNamespaceSchemaLocation='03.xsd' >
     <modulos>    
         <modulo codM="EDD" >Entornos de Desarrollo</modulo>
         <modulo codM="LMSGI">Lenguaje de Marcas y Sistemas de Gestion de la Información</modulo>
