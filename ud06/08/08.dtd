@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/08.dtd
+
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prediccion (municipio|dia)*>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT municipio (nombre|provincia)*>
+<!ATTLIST municipio
+    id CDATA #IMPLIED
+  >
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT provincia (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dia (prob_precipitacion|estado_cielo|viento|temperatura)*>
+<!ATTLIST dia
+    fecha CDATA #IMPLIED
+  >
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prob_precipitacion (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT estado_cielo (#PCDATA)>
+<!ATTLIST estado_cielo
+    descripcion CDATA #IMPLIED
+  >
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT viento (direccion|velocidad)*>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT direccion (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT velocidad (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT temperatura (maxima|minima)*>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT maxima (#PCDATA)>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT minima (#PCDATA)>

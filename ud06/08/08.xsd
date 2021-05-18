@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="prediccion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="municipio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="provincia" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:positiveInteger"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="dia" minOccurs="7" maxOccurs="7">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="prob_precipitacion">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="0"/>
+                                        <xs:maxInclusive value="100"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="estado_cielo">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="descripcion" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="viento">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion" type="xs:string"/>
+                                        <xs:element name="velocidad">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="0"/>
+                                                    <xs:maxInclusive value="400"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="temperatura">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maxima" type="temperatura"/>
+                                        <xs:element name="minima" type="temperatura"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:date"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="temperatura">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="100"/>
+            <xs:minInclusive value="-100"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
