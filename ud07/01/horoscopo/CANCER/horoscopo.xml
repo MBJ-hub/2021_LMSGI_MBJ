@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="4">
+		<message>
+Hoy podría ser un día de trastornos domésticos, de falta de concentración, de indecisión y de retrasos en los proyectos, con la consiguiente ansiedad, discusiones y disentimientos. Para manejar esta energía positivamente deberás concentrarte en lo que hagas, Cáncer, y trabajar diligentemente en este día. Finalmente, si vas a cerrar proyectos hoy o a firmar papeles, lee bien la letra pequeña, es decir, revisa todo con sumo cuidado.
+		</message>
+		<numbers>
+13, 19, 28, 43, 44, 47
+		</numbers>
+		<compatibility>
+Piscis
+		</compatibility>
+	</sign>
+	
+</horoscope>

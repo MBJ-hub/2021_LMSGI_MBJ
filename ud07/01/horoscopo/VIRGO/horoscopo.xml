@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="6">
+		<message>
+Tal vez hoy sea un día de tensión en los asuntos familiares o con tus seres queridos, Virgo; quizá pienses que debes trabajar más que los demás y esto te cause demasiadas presiones... Todo se conseguirá actuando de una forma responsable, con perseverancia y concentrándote en el trabajo, aunque es posible que sientas cierto descontento con el entorno que te rodea. ¡No discutas!
+		</message>
+		<numbers>
+2, 10, 21, 32, 39, 46
+		</numbers>
+		<compatibility>
+Tauro
+		</compatibility>
+	</sign>
+	
+</horoscope>

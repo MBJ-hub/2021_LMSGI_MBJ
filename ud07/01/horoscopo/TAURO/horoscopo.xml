@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="2">
+		<message>
+Tauro, debes enfrentarte a las nuevas responsabilidades y tener más confianza en ti, sin temer al fracaso. Aprovecha la energía del día para la expansión en el ámbito económico: no te arrepentirás. Por otra parte, deberías pensar de una forma más optimista... todo lo económico se resolverá de una manera positiva para ti: ten paciencia. Y recuerda: la diplomacia será tu mejor aliada.
+		</message>
+		<numbers>
+2, 7, 10, 16, 26, 29
+		</numbers>
+		<compatibility>
+Virgo
+		</compatibility>
+	</sign>
+	
+</horoscope>

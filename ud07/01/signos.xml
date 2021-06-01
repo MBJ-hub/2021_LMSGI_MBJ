@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<horoscopo
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="signos.xsd">
+    <signo id="1">
+        <nombre>ARIES</nombre>
+        <fecha>21 de marzo - 20 de abril</fecha>
+    </signo>
+    <signo id="2">
+        <nombre>TAURO</nombre>
+        <fecha>21 de abril - 21 de mayo</fecha>
+    </signo>
+    <signo id="3">
+        <nombre>GEMENIS</nombre>
+        <fecha>22 de mayo - 22 de junio</fecha>
+    </signo>
+    <signo id="4">
+        <nombre>CANCER</nombre>
+        <fecha>23 de junio - 23 de julio</fecha>
+    </signo>
+    <signo id="5">
+        <nombre>LEO</nombre>
+        <fecha>24 de julio - 23 de agosto</fecha>
+    </signo>
+    <signo id="6">
+        <nombre>VIRGO</nombre>
+        <fecha>24 de agosto - 23 de septiembre</fecha>
+    </signo>
+    <signo id="7">
+        <nombre>LIBRA</nombre>
+        <fecha>24 de septiembre - 23 de octubre</fecha>
+    </signo>
+    <signo id="8">
+        <nombre>ESCORPIO</nombre>
+        <fecha>24 de octubre - 22 de noviembre</fecha>
+    </signo>
+    <signo id="9">
+        <nombre>SAGITARIO</nombre>
+        <fecha>23 de noviembre - 21 de diciembre</fecha>
+    </signo>
+    <signo id="10">
+        <nombre>CAPRICORNIO</nombre>
+        <fecha>22 de diciembre - 20 de enero</fecha>
+    </signo>
+    <signo id="11">
+        <nombre>ACUARIO</nombre>
+        <fecha>21 de enero - 19 de febrero</fecha>
+    </signo>
+    <signo id="12">
+        <nombre>PISCIS</nombre>
+        <fecha>2O de febrero - 20 de marzo</fecha>
+    </signo>
+</horoscopo>

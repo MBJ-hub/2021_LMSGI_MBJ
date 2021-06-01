@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+
+	<sign id="12">
+		<message>
+Piscis, hoy mostrarás tu capacidad de liderazgo, carácter e inteligencia. En general, es posible que disfrutes de éxito en el trabajo y de unas inversiones acertadas. Tenderás a la cautela, a la diplomacia y a la perseverancia en tus relaciones con los demás; también demostrarás un autocontrol excepcional y sacarás partido de todas las oportunidades que se te presenten. Eres un ser muy perceptivo y te sueles dar cuenta cuando alguien pretende engañarte... ¡haz uso de esta facultad!
+		</message>
+		<numbers>
+9, 17, 27, 34, 48, 49
+		</numbers>
+		<compatibility>
+Cáncer
+		</compatibility>
+	</sign>
+</horoscope>

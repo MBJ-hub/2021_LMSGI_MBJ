@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="3">
+		<message>
+Hoy podrías conseguir cierta paz y tranquilidad gracias a tu equilibrio interno, Géminis. En general, disfrutarás de la armonía y prosperidad resultantes de un trabajo organizado y pulcro; además, podrás conseguir ganancias gracias a tus amistades o a los viajes. Tendrás mucha agilidad mental e ingenio... utiliza estas energías para innovar, para emprender nuevos proyectos que te lleven al lugar que quieres y hagan realidad tus sueños.
+		</message>
+		<numbers>
+2, 9, 17, 22, 33, 41
+		</numbers>
+		<compatibility>
+Aries
+		</compatibility>
+	</sign>
+	
+</horoscope>

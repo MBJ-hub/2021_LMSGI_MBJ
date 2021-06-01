@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="11">
+		<message>
+Tenderás hoy a un comportamiento impaciente, ansioso y beligerante, Acuario; con demasiadas explicaciones y falta de productividad general. No debes desanimarte porque las cosas no salgan tan pronto como quisieras, debes trabajar con perseverancia de una forma ordenada y aprender cualidades como la paciencia en este día. Tu ascenso será lento pero seguro... sé tenaz.
+		</message>
+		<numbers>
+2, 11, 12, 13, 35, 36
+		</numbers>
+		<compatibility>
+Sagitario
+		</compatibility>
+	</sign>
+</horoscope>

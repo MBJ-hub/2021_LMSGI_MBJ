@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="9">
+		<message>
+La valentía, capacidad y fuerza de personalidad te caracterizarán hoy, Sagitario; te enfrentarás con seguridad a cualquier problema. En general, estarás muy intelectual y ejercerás influencia sobre los demás, y a la vez, aprenderás a comunicarte de una forma amable, esto hará que tus relaciones, no solamente en la vida afectiva sino también en el trabajo, fluyan adecuadamente... así, tendrás mejoras y posibilidades de expansión.
+		</message>
+		<numbers>
+8, 10, 13, 18, 27, 28
+		</numbers>
+		<compatibility>
+Acuario
+		</compatibility>
+	</sign>
+	
+</horoscope>

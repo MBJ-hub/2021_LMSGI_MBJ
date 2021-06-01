@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	<sign id="1">
+		<message>
+Aries, hoy tendrás mucha facilidad para aprender; además, gracias a un trabajo cuidadoso y constructivo y con capacidad para expresarte, podrás lograr bienes materiales. Utiliza tu elevada energía y talento. El éxito será duradero en el futuro si tu trabajo es constante y intenso. Además, tu situación financiera podría experimentar un cambio favorable y espectacular, también podrías tener ascensos y reconocimiento profesional.
+		</message>
+		<numbers>
+10, 13, 37, 39, 43, 47
+		</numbers>
+		<compatibility>
+Géminis
+		</compatibility>
+	</sign>
+	
+</horoscope>

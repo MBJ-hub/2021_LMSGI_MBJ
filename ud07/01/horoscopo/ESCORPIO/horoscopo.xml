@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="8">
+		<message>
+La ansiedad, las indecisiones y las dudas de hoy tal vez te causen cierta inseguridad, Escorpio; también las disputas y penas en el amor. Tienes que comprender que comportándote de una forma agresiva dañas a los demás. Además, es posible que soportes demasiadas tensiones y te mostrarás desafiante ante cualquier circunstancia. Finalmente, los proyectos que tienes quizá estén sufriendo retrasos; deberás ejercitarte en la paciencia.
+		</message>
+		<numbers>
+4, 7, 15, 19, 21, 22
+		</numbers>
+		<compatibility>
+Capricornio
+		</compatibility>
+	</sign>
+	
+</horoscope>

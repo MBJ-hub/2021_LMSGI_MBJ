@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="10">
+		<message>
+Tu comportamiento hoy será muy activo y determinado, con mucha experiencia y autoridad; querrás controlar y dirigir a los demás... y lo harás bien, Capricornio. Serás una persona muy profesional y analítica; además, tendrás ahora nuevas ideas y planes. De todos modos, deberías tratar de fomentar la cooperación de las personas que trabajan contigo para así lograr un equipo competente. Estás en tu mejor momento y tienes que seguir concentrándote en las metas de tu vida.
+		</message>
+		<numbers>
+7, 27, 30, 32, 39, 47
+		</numbers>
+		<compatibility>
+Escorpio
+		</compatibility>
+	</sign>
+	
+</horoscope>

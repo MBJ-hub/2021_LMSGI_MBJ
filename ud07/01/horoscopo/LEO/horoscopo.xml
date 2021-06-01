@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" ?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	
+	<sign id="5">
+		<message>
+Leo, con simpatía, comprensión y honradez será como lograrás mejores resultados hoy. En general, demostrarás un genuino interés por el bienestar de los demás; tu actitud será muy madura y generosa, con cierto magnetismo personal y unas determinaciones firmes para enfrentarte a cualquier tipo de reto u oposición. Escucha a la voz de tu intuición, pero toma unas decisiones prácticas y lógicas.
+		</message>
+		<numbers>
+18, 21, 28, 31, 37, 41
+		</numbers>
+		<compatibility>
+Aries
+		</compatibility>
+	</sign>
+	
+</horoscope>
